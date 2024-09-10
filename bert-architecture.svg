@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect x="0" y="0" width="400" height="500" fill="#ffffff"/>
+  
+  <text x="200" y="30" text-anchor="middle" font-size="20" font-weight="bold">BERT Architecture</text>
+  
+  <!-- Input -->
+  <rect x="50" y="50" width="300" height="40" fill="#ffcccc" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="75" text-anchor="middle" font-size="13">[CLS] Token1 Token2 ... [SEP] Token1' ... [SEP]</text>
+  
+  <!-- Embedding Layer -->
+  <rect x="50" y="110" width="300" height="30" fill="#ccffcc" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="130" text-anchor="middle" font-size="13">Token + Segment + Position Embeddings</text>
+  
+  <!-- Transformer Layers -->
+  <rect x="50" y="160" width="300" height="200" fill="#cce5ff" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="180" text-anchor="middle" font-size="16" font-weight="bold">Transformer Layers (x12)</text>
+  
+  <!-- Self-Attention -->
+  <rect x="70" y="200" width="260" height="30" fill="#ffffcc" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="220" text-anchor="middle" font-size="12">Multi-Head Self-Attention</text>
+  
+  <!-- Feed Forward -->
+  <rect x="70" y="240" width="260" height="30" fill="#ffd9cc" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="260" text-anchor="middle" font-size="12">Feed Forward</text>
+  
+  <!-- Add & Norm -->
+  <rect x="70" y="280" width="260" height="30" fill="#e6ccff" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="300" text-anchor="middle" font-size="12">Add & Norm</text>
+  
+  <!-- Output -->
+  <rect x="50" y="380" width="300" height="40" fill="#ccccff" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="405" text-anchor="middle" font-size="14">Final Hidden State</text>
+  
+  <!-- Pre-training objectives -->
+  <rect x="50" y="440" width="140" height="40" fill="#ffccff" stroke="#000000" stroke-width="2"/>
+  <text x="120" y="465" text-anchor="middle" font-size="12">Masked LM</text>
+  
+  <rect x="210" y="440" width="140" height="40" fill="#ffccff" stroke="#000000" stroke-width="2"/>
+  <text x="280" y="460" text-anchor="middle" font-size="12">Next Sentence</text>
+  <text x="280" y="472" text-anchor="middle" font-size="12">Prediction</text>
+</svg>

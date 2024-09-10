@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Input Embedding -->
+  <rect x="50" y="50" width="134" height="50" fill="#ffcccc" stroke="#000000" stroke-width="2"/>
+  <text x="120" y="80" text-anchor="middle" font-size="14">Input Embedding</text>
+  
+  <!-- Positional Encoding -->
+  <rect x="50" y="120" width="140" height="50" fill="#ccffcc" stroke="#000000" stroke-width="2"/>
+  <text x="120" y="150" text-anchor="middle" font-size="14">Positional Encoding</text>
+  
+  <!-- Encoder Stack -->
+  <rect x="250" y="50" width="170" height="300" fill="#cce5ff" stroke="#000000" stroke-width="2"/>
+  <text x="325" y="70" text-anchor="middle" font-size="16" font-weight="bold">Encoder Stack</text>
+  
+  <!-- Multi-Head Attention -->
+  <rect x="270" y="100" width="130" height="50" fill="#ffffcc" stroke="#000000" stroke-width="2"/>
+  <text x="335" y="130" text-anchor="middle" font-size="12">Multi-Head Attention</text>
+  
+  <!-- Add & Norm -->
+  <rect x="270" y="170" width="130" height="30" fill="#e6ccff" stroke="#000000" stroke-width="2"/>
+  <text x="335" y="190" text-anchor="middle" font-size="12">Add & Norm</text>
+  
+  <!-- Feed Forward -->
+  <rect x="270" y="220" width="130" height="50" fill="#ffd9cc" stroke="#000000" stroke-width="2"/>
+  <text x="335" y="250" text-anchor="middle" font-size="12">Feed Forward</text>
+  
+  <!-- Add & Norm -->
+  <rect x="270" y="290" width="130" height="30" fill="#e6ccff" stroke="#000000" stroke-width="2"/>
+  <text x="335" y="310" text-anchor="middle" font-size="12">Add & Norm</text>
+  
+  <!-- Decoder Stack -->
+  <rect x="470" y="50" width="150" height="400" fill="#ffe6cc" stroke="#000000" stroke-width="2"/>
+  <text x="545" y="70" text-anchor="middle" font-size="16" font-weight="bold">Decoder Stack</text>
+  
+  <!-- Masked Multi-Head Attention -->
+  <rect x="485" y="100" width="120" height="50" fill="#ffffcc" stroke="#000000" stroke-width="2"/>
+  <text x="545" y="125" text-anchor="middle" font-size="12">Masked Multi-Head</text>
+  <text x="545" y="140" text-anchor="middle" font-size="12">Attention</text>
+  
+  <!-- Add & Norm -->
+  <rect x="485" y="170" width="120" height="30" fill="#e6ccff" stroke="#000000" stroke-width="2"/>
+  <text x="545" y="190" text-anchor="middle" font-size="12">Add & Norm</text>
+  
+  <!-- Multi-Head Attention -->
+  <rect x="485" y="220" width="120" height="50" fill="#ffffcc" stroke="#000000" stroke-width="2"/>
+  <text x="545" y="250" text-anchor="middle" font-size="12">Multi-Head Attention</text>
+  
+  <!-- Add & Norm -->
+  <rect x="485" y="290" width="120" height="30" fill="#e6ccff" stroke="#000000" stroke-width="2"/>
+  <text x="545" y="310" text-anchor="middle" font-size="12">Add & Norm</text>
+  
+  <!-- Feed Forward -->
+  <rect x="485" y="340" width="120" height="50" fill="#ffd9cc" stroke="#000000" stroke-width="2"/>
+  <text x="545" y="370" text-anchor="middle" font-size="12">Feed Forward</text>
+  
+  <!-- Add & Norm -->
+  <rect x="485" y="410" width="120" height="30" fill="#e6ccff" stroke="#000000" stroke-width="2"/>
+  <text x="545" y="430" text-anchor="middle" font-size="12">Add & Norm</text>
+  
+  <!-- Linear -->
+  <rect x="670" y="50" width="100" height="50" fill="#ccffe6" stroke="#000000" stroke-width="2"/>
+  <text x="720" y="80" text-anchor="middle" font-size="14">Linear</text>
+  
+  <!-- Softmax -->
+  <rect x="670" y="120" width="100" height="50" fill="#ffccff" stroke="#000000" stroke-width="2"/>
+  <text x="720" y="150" text-anchor="middle" font-size="14">Softmax</text>
+  
+  <!-- Output -->
+  <rect x="670" y="190" width="100" height="50" fill="#ccccff" stroke="#000000" stroke-width="2"/>
+  <text x="720" y="220" text-anchor="middle" font-size="14">Output</text>
+  
+  <!-- Arrows -->
+  <line x1="180" y1="75" x2="220" y2="75" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="190" y1="145" x2="220" y2="145" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="420" y1="200" x2="450" y2="200" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="620" y1="75" x2="650" y2="75" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="720" y1="100" x2="720" y2="120" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="720" y1="170" x2="720" y2="190" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+</svg>
