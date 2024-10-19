@@ -1,6 +1,6 @@
 # Adversarial Attacks on Question Answering Models
 
-This repository contains the code and results for my MSc thesis project on adversarial attacks on question answering models: [here](https://doi.org/10.5281/zenodo.1395357)
+This repository contains the code and results for my MSc thesis project on adversarial attacks on question answering models: [here](https://doi.org/10.5281/zenodo.13953578)
 
 ## Adversarial Attack Results
 
